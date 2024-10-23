@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/fminette/tmp-iot-github.git
+    repoURL: https://github.com/fminette/fminette-iot-p3.git
     targetRevision: HEAD
     path: dev
   destination: 
@@ -17,4 +17,4 @@ spec:
     - CreateNamespace=true
     automated:
       selfHeal: true
-      prune: false
+      prune: true
